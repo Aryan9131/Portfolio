@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Ppmori';
+    src: url('/ppmori.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+#expectText{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    position: absolute;
+    top: 6%;
+    font-family: 'Ppmori';
+}
+
+
+.elem{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    /* background-color:salmon; */
+    height:13vh;
+    width:100%;
+    position: relative;
+    margin: 5px 0px;
+}
+
+.elem h1{
+    font-size: 13vh;
+    color:white;
+    transition: all 0.3s ease-in-out;
+}
+.elem img{
+    position:absolute;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    transform: translateY(10%) rotate(2deg);
+    z-index: 10;
+}
+.elem img:nth-child(1){
+    left:8%;
+}
+.elem img:nth-child(3){
+    top: 0;
+    right:8%;
+}
+.text{
+    height:13vh;
+    overflow:hidden
+}
+.elem:hover h1 {
+    transform: translateY(-100%);
+    color: lightpink;
+}
+.elem:hover img {
+    opacity:1;
+    transform: translateY(0%) rotate(0deg);
+}

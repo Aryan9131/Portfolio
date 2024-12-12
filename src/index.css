@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Ppmori';
+  src: url('/ppmori.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Ppmori',sans-serif;
+}
+html, body {
+  overflow-x: hidden;
+  margin: 0;
+  padding:0;
+}
+html::-webkit-scrollbar,
+body::-webkit-scrollbar,
+#root::-webkit-scrollbar{
+  display: none;
+}
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Ensure the root element fills the viewport */
+  font-family: 'RecklessNeue',sans-serif;
+  color-scheme: light dark;
+  background-color: #242424;
+}

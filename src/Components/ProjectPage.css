@@ -1,0 +1,6 @@
+.projectListItems {
+    -webkit-text-stroke: .3px rgb(206, 205, 205);
+    /* color:#511b1b; */
+    font-weight: 1000;
+    white-space: nowrap; /* Prevent text wrapping */
+}

@@ -1,0 +1,20 @@
+/* SkillPage.css */
+@font-face {
+  font-family: 'Ppmori';
+  src: url('/ppmori.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#page3{
+  font-family: 'Ppmori';
+}
+#text1{
+  font-family: 'Ppmori';
+}
+/*
+  #skillPage::-webkit-scrollbar{
+    width: 0px;  
+    background: transparent;  
+  }
+   */

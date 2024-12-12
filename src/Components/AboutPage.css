@@ -1,0 +1,6 @@
+#page2{
+  position: relative;
+  width: 100vw;
+  height: 100vh; /* Fullscreen sections */
+  overflow: hidden;
+}
