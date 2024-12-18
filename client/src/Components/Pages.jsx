@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
 import { IntroPage } from './IntroPage';
 import { AboutPage } from './AboutPage';
 import { SkillPage } from './SkillPage';
@@ -8,6 +9,9 @@ import { ProjectPage } from './ProjectPage';
 import { Box, Typography } from '@mui/material';
 import './Pages.css'
 import { AdditionalSkillPage } from './AdditionalSkillPage';
+import { ContactPage } from './ContactPage';
+import { ToastContainer, toast } from 'react-toastify';
+
 gsap.registerPlugin(ScrollTrigger);
 
 export const Pages = () => {
@@ -47,6 +51,9 @@ export const Pages = () => {
   
   return (
     <>
+      <Box id="toastContainer">
+         <ToastContainer />
+      </Box>
       <Box
         id="cursor"
         ref={cursorRef}
@@ -90,6 +97,7 @@ export const Pages = () => {
         <SkillPage />
         <AdditionalSkillPage/>
         <ProjectPage cursorRef={cursorRef} />
+        <ContactPage/>
       </Box>
     </>
   );

@@ -58,6 +58,7 @@ export const ProjectPage = ({ cursorRef }) => {
 
   return (
     <Box
+    data-scroll-section
       sx={{
         backgroundColor: 'black',
         width: '100vw',

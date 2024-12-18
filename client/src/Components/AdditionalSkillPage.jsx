@@ -3,7 +3,7 @@ import React from 'react'
 import './AdditionalSkillPage.css'
 export const AdditionalSkillPage = () => {
     return (
-        <Box sx={{position:'relative', display:'flex', flexDirection:'column',justifyContent:'center', alignItems:'center', height: '100vh', width: '100vw', backgroundColor: 'black', padding: '100px' }}>
+        <Box data-scroll-section sx={{position:'relative', display:'flex', flexDirection:'column',justifyContent:'center', alignItems:'center', height: '100vh', width: '100vw', backgroundColor: 'black', padding: '100px' }}>
             <Box id="expectText">
                 <Typography>
                    WHAT YOU CAN

@@ -79,6 +79,7 @@ export const IntroPage = ({cursorRef}) => {
 
   return (
     <Box
+      data-scroll-section
       ref={pageRef}
       id="page1"
       sx={{

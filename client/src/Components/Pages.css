@@ -7,5 +7,13 @@
   #pages-container {
     -ms-overflow-style: none; /* Internet Explorer 10+ */
     scrollbar-width: none;    /* Firefox */
+    overflow: hidden;
+  }
+  [data-scroll-container] {
+    position: relative;
+  }
+  
+  [data-scroll-section] {
+    position: relative;
   }
   
