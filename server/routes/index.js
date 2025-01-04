@@ -3,6 +3,11 @@ const nodemailer =require('nodemailer')
 const router=express.Router();
 require('dotenv').config()
 
+router.get('/', (req, res)=>{
+    return status(200).json({
+        message : 'backend working'
+    })
+})
 router.post('/api/mail',(req, res)=>{
    try {
         console.log("Email -> "+process.env.EMAIL )
