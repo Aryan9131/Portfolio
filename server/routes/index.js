@@ -8,7 +8,7 @@ router.get('/', (req, res)=>{
         message : 'backend working'
     })
 })
-router.get('/get-messsge', (req, res)=>{
+router.get('/get-message', (req, res)=>{
     return res.status(200).json({
         message : 'ok got it !'
     })

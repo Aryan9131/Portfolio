@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://portfolio-backend-chi-ecru.vercel.app',
+        target: 'https://portfolio-backend-qjqf.onrender.com',
         changeOrigin: true,
       },
     },    

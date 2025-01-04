@@ -62,7 +62,7 @@ export const ContactPage = () => {
         subject:subject,
         message:message
       }
-     const sendResponse =await fetch('https://portfolio-backend-chi-ecru.vercel.app/api/mail',{
+     const sendResponse =await fetch('https://portfolio-backend-qjqf.onrender.com/api/mail',{
        method:'POST',
        headers :{
           'Content-Type':'application/json'
