@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://portfolio-one-virid-79.vercel.app',
+        target: 'https://portfolio-aqjafnobr-aryan-nayaks-projects.vercel.app',
         changeOrigin: true,
       },
     },    

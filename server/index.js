@@ -1,8 +1,10 @@
 const express = require('express');
 const cors = require('cors');
+const dotenv = require('dotenv');
 const app = express();
 const PORT = process.env.PORT || 8000;
 
+dotenv.config();
 // Enable CORS
 const corsOptions = {
     origin: ['https://portfolio-frontend-bay-delta.vercel.app'], // Frontend URL
