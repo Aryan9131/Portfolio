@@ -65,7 +65,7 @@ export const ContactPage = () => {
      const sendResponse =await fetch('https://portfolio-backend-chi-ecru.vercel.app/api/mail',{
        method:'POST',
        headers :{
-          'Content-Type' :'application/json'
+          'Content-Type':'application/json'
        },
        body : JSON.stringify(obj)
      })

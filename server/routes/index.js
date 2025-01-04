@@ -4,8 +4,13 @@ const router=express.Router();
 require('dotenv').config()
 
 router.get('/', (req, res)=>{
-    return status(200).json({
+    return res.status(200).json({
         message : 'backend working'
+    })
+})
+router.get('/get-messsge', (req, res)=>{
+    return res.status(200).json({
+        message : 'ok got it !'
     })
 })
 router.post('/api/mail',(req, res)=>{
