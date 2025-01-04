@@ -41,7 +41,6 @@ export const Pages = () => {
   }, []);
 
   const handleMouseMove = (event) => {
-    console.log(event)
     const { clientX, clientY } = event; // Use pageX and pageY instead of clientX and clientY
     if (cursorRef.current) {
       cursorRef.current.style.left = `${clientX-10}px`;

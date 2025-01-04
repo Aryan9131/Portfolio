@@ -67,9 +67,9 @@ export const ContactPage = () => {
        headers :{
           'Content-Type' :'application/json'
        },
-       mode: 'no-cors',
        body : JSON.stringify(obj)
      })
+     console.log(obj);
      const sendData = await sendResponse.json();
      toast('Message Sent !')
      console.log("Message sent successfull : "+JSON.stringify(sendData))

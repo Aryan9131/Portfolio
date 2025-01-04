@@ -9,8 +9,7 @@ export default defineConfig({
       '/api': {
         target: 'https://portfolio-one-virid-79.vercel.app',
         changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/api/, ''),
       },
-    },
+    },    
   }
 })
