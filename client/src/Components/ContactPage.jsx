@@ -67,6 +67,7 @@ export const ContactPage = () => {
        headers :{
           'Content-Type' :'application/json'
        },
+       mode: 'no-cors',
        body : JSON.stringify(obj)
      })
      const sendData = await sendResponse.json();
