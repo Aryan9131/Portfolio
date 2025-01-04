@@ -6,7 +6,7 @@ const PORT=process.env.port || 8000;
 // Enable CORS
 const corsOptions = {
     origin: [
-      'https://portfolio-na0menyu6-aryan-nayaks-projects.vercel.app'
+      'https://portfolio-frontend-bay-delta.vercel.app'
     ],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ["Authorization", "Content-Type"],
