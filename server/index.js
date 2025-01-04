@@ -17,6 +17,12 @@ app.use(cors(corsOptions));
 app.options('*', cors(corsOptions)); // Handle preflight requests
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+
+app.all('/',(req, res)=>{
+     return res.status(200).json({
+        message : 'backend runing'
+     })
+})
 app.use('/', require('./routes'));
 
 // Start the server
