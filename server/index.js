@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 8000;
 
 // Enable CORS
 const corsOptions = {
-    origin: 'https://portfolio-frontend-bay-delta.vercel.app', // Frontend URL
+    origin: ['https://portfolio-frontend-bay-delta.vercel.app'], // Frontend URL
     methods: ['GET', 'POST', 'PUT', 'DELETE'], 
     allowedHeaders: ['Authorization', 'Content-Type'],
     credentials: true, // Allow cookies, if needed
