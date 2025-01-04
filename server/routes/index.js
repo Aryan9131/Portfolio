@@ -1,9 +1,12 @@
 const express=require('express');
 const nodemailer =require('nodemailer')
 const router=express.Router();
+require('dotenv').config()
 
 router.post('/api/mail',(req, res)=>{
    try {
+        console.log("Email -> "+process.env.EMAIL )
+        console.log(" password -> "+process.env.PASSWORD)
         console.log('data get --> '+JSON.stringify(req.body));
         const transporter=nodemailer.createTransport({
             service:'gmail',
