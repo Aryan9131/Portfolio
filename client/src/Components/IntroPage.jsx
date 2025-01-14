@@ -106,7 +106,7 @@ export const IntroPage = ({cursorRef}) => {
         }}
       >
         <Box
-          sx={{ marginBottom: '20px', lineHeight: '1', fontSize: "5.4rem", color: "#d9d7d7", display: "flex", flexDirection: 'column', fontWeight: '100', fontFamily: "'RecklessNeue', sans-serif" }}
+          sx={{ marginBottom: '20px', lineHeight: '1', fontSize: "5.2rem", color: "#d9d7d7", display: "flex", flexDirection: 'column', fontWeight: '100', fontFamily: "'RecklessNeue', sans-serif" }}
         >
           <span className='landingText'> Hey there!👋 </span>
           <span className='landingText'>I'm Aryan, a</span>
@@ -121,16 +121,16 @@ export const IntroPage = ({cursorRef}) => {
           <br />
           Welcome to my world—let’s create something amazing together!
         </Typography>
-        <Box sx={{width:'80%', display: "flex", alignItems: 'center',justifyContent:'space-between', position: 'absolute', bottom: '8%' }}>
+        <Box sx={{width:'80%', display: "flex", alignItems: 'center',justifyContent:'space-between', position: 'absolute', bottom: '4%' }}>
           <Box sx={{ display: "flex", alignItems: 'center'}}>
-            <Box sx={{ fontWeight: 'bold', fontSize: '20px', color: 'purple', backgroundColor: 'yellow', width: '30px', height: '40px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-              <span>gt</span>
+            <Box sx={{ fontWeight: 'bold', fontSize: '20px', color: 'purple', backgroundColor: 'yellow', width: '30px', height: '40px',borderRadius:'5px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+               <a href="https://github.com/Aryan9131" style={{textDecoration:'none', color:'purple'}}>gt</a>
             </Box>
-            <Box sx={{ fontWeight: 'bold', fontSize: '20px', color: 'yellow', backgroundColor: 'orange', width: '30px', height: '40px', margin: '0px 20px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-              <span>in</span>
+            <Box sx={{ fontWeight: 'bold', fontSize: '20px', color: 'yellow', backgroundColor: 'orange', width: '30px', height: '40px',borderRadius:'5px', margin: '0px 20px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+               <a href="https://github.com/Aryan9131" style={{textDecoration:'none', color:'black'}}>cn</a>
             </Box>
-            <Box sx={{ fontWeight: 'bold', fontSize: '20px', color: 'orange', backgroundColor: 'purple', width: '30px', height: '40px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-              <span>cn</span>
+            <Box sx={{ fontWeight: 'bold', fontSize: '20px', color: 'orange', backgroundColor: 'purple', width: '30px', height: '40px',borderRadius:'5px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+               <a href="https://github.com/Aryan9131" style={{textDecoration:'none', color:'orange'}}>in</a>
             </Box>
           </Box>
           <Box
