@@ -122,7 +122,7 @@ export const AboutPage = ({ cursorRef }) => {
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
           >
-              <Button>Certificate</Button>
+              <Button><a href="https://drive.google.com/file/d/16F8t5QF-XfAhnH2LqE2SDUydMq-M_AVS/view?usp=sharing" target="_blank" style={{textDecoration:'none', color:'blue'}}>Certificate</a></Button>
           </Box>
 
         </Box>

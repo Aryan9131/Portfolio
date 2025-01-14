@@ -124,13 +124,13 @@ export const IntroPage = ({cursorRef}) => {
         <Box sx={{width:'80%', display: "flex", alignItems: 'center',justifyContent:'space-between', position: 'absolute', bottom: '4%' }}>
           <Box sx={{ display: "flex", alignItems: 'center'}}>
             <Box sx={{ fontWeight: 'bold', fontSize: '20px', color: 'purple', backgroundColor: 'yellow', width: '30px', height: '40px',borderRadius:'5px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-               <a href="https://github.com/Aryan9131" style={{textDecoration:'none', color:'purple'}}>gt</a>
+               <a href="https://github.com/Aryan9131" target='blank' style={{textDecoration:'none', color:'purple'}}>gt</a>
             </Box>
             <Box sx={{ fontWeight: 'bold', fontSize: '20px', color: 'yellow', backgroundColor: 'orange', width: '30px', height: '40px',borderRadius:'5px', margin: '0px 20px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-               <a href="https://github.com/Aryan9131" style={{textDecoration:'none', color:'black'}}>cn</a>
+               <a href="https://github.com/Aryan9131" target='blank' style={{textDecoration:'none', color:'black'}}>cn</a>
             </Box>
             <Box sx={{ fontWeight: 'bold', fontSize: '20px', color: 'orange', backgroundColor: 'purple', width: '30px', height: '40px',borderRadius:'5px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-               <a href="https://github.com/Aryan9131" style={{textDecoration:'none', color:'orange'}}>in</a>
+               <a href="https://github.com/Aryan9131" target='blank' style={{textDecoration:'none', color:'orange'}}>in</a>
             </Box>
           </Box>
           <Box
