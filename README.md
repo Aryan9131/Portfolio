@@ -21,18 +21,24 @@ A dynamic, interactive portfolio website built with Full Stack technologies. Thi
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/portfolio-website.git
+   git clone https://github.com/your-username/portfolio.git
    ```
    
 2. Install dependencies:
+   for client :
    ```bash
-   cd portfolio-website
+   cd portfolio/client
+   npm install
+   ```
+   for server :
+   ```bash
+   cd portfolio/server
    npm install
    ```
 
-3. Set up the backend by configuring your email and MongoDB connection in the `.env` file.
+4. Set up the backend by configuring your email and MongoDB connection in the `.env` file.
 
-4. Start the application:
+5. Start the application:
    ```bash
    npm start
    ```
