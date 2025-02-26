@@ -88,7 +88,7 @@ export const ProjectPage = ({ cursorRef }) => {
           url='https://social-mern-project-frontend.onrender.com/sign-up'
           onMouseEnter={() =>
             handleMouseEnter(
-              'https://images.unsplash.com/photo-1732482124606-697008dab09c?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+              'https://res.cloudinary.com/anayak/image/upload/v1740574128/sh0vxhityki2rwlizzog.png'
             )
           }
           onMouseLeave={handleMouseLeave}
@@ -98,7 +98,7 @@ export const ProjectPage = ({ cursorRef }) => {
           project="Digital Gram Panchayat"
           onMouseEnter={() =>
             handleMouseEnter(
-              'https://res.cloudinary.com/anayak/image/upload/v1736846512/wouw6okmicpyolo9yhe6.png'
+              'https://res.cloudinary.com/anayak/image/upload/v1740574129/p3znxebi8ca6kjzctjik.png'
             )
           }
           onMouseLeave={handleMouseLeave}
@@ -108,17 +108,17 @@ export const ProjectPage = ({ cursorRef }) => {
           project="Employee Review System"
           onMouseEnter={() =>
             handleMouseEnter(
-              'https://res.cloudinary.com/anayak/image/upload/v1736847333/qqv5tfuksapgtwjzanut.png'
+              'https://res.cloudinary.com/anayak/image/upload/v1740574128/ykfohe9xkjjfhae23jqo.png'
             )
           }
           onMouseLeave={handleMouseLeave}
         />
         <ProjectItem
-          url='https://issue-tracker-ae0w.onrender.com/'
-          project="Issue Tracker Project"
+          url='https://school-payment-and-dashboard-application-three.vercel.app/'
+          project="School Payment Management"
           onMouseEnter={() =>
             handleMouseEnter(
-              'https://plus.unsplash.com/premium_photo-1677646867397-6b4fe631acc3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+              'https://res.cloudinary.com/anayak/image/upload/v1740574128/f1j39lt52cww5cg9erc8.png'
             )
           }
           onMouseLeave={handleMouseLeave}
