@@ -1,0 +1,21 @@
+#profileIcons a{
+    transition:0.3s;
+    padding: 6px 12px;
+    color:white,;
+    background-color:#2200493d;
+    /* background-color:#ffb109da; */
+
+    border-radius:10px;
+    border:1px solid #727fdeb4;
+    box-shadow:0 0 5px #727fde86;
+    font-size:12px;
+    display:flex;
+    align-items:center;
+    text-transform: lowercase;
+    text-decoration: none;
+}
+
+#profileIcons a:hover{
+      box-shadow:0 0 15px #727fde86;
+      color:white
+}

@@ -62,7 +62,7 @@ export const AboutPage = ({ cursorRef }) => {
   }, []);
 
   return (
-    <Box id="page2" data-scroll-section sx={{ color: 'whitesmoke', width: '100vw', minHeight: '100vh', backgroundColor: 'black', overflow: 'hidden' }}>
+    <Box id="page2" data-scroll-section sx={{ color: 'whitesmoke', width: '100vw', minHeight: '100vh', overflow: 'hidden' }}>
       <Box sx={{ position: 'relative', backgroundColor: 'black', zIndex: 10 }}>
         <Typography id="aboutText" sx={{ paddingLeft: '20px', color: 'white', fontSize: '3vw', fontWeight: '800' }}>
           A bit about me

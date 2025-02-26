@@ -75,6 +75,7 @@ export const Pages = () => {
         ref={pagesRef}
         onMouseMove={handleMouseMove} // Attach the mousemove event handler here
       >
+        <video loop autoPlay muted playsInline style={{position:'fixed'}} src="/galaxy.mp4"></video>
         <Typography
           sx={{
             backgroundColor: 'black',

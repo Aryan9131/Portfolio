@@ -1,8 +1,20 @@
 @font-face {
   font-family: 'Ppmori';
-  src: url('/ppmori.ttf') format('truetype');
+  src: url('./assets/ppmori.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
+}
+@font-face {
+  font-family: 'anzo1';
+  src: url('./assets/file.woff2') format('truetype');
+}
+@font-face {
+  font-family: 'anzo2';
+  src: url('./assets/file-2.woff2') format('truetype');
+}
+@font-face {
+  font-family: 'anzo3';
+  src: url('./assets/file-3.woff2') format('truetype');
 }
 *{
   padding: 0;
