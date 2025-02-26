@@ -119,8 +119,8 @@ export function SkillPage() {
                 }}
               />
               <Box sx={{  height: '90%', width: '80%', display: 'flex', alignItems: 'center' }}>
-                <Typography variant="span" sx={{fontWeight:'1000', fontSize:'2rem'}}>Web : &nbsp;</Typography>
-                <Typography variant="span" sx={{fontWeight:'100', fontSize:'1.3rem'}}> HTML, CSS, Javascript, React.js, Node.js, GSAP</Typography>    
+                <Typography variant="span" sx={{fontWeight:'1000', fontSize:'1.5rem'}}>Web : &nbsp;</Typography>
+                <Typography variant="span" sx={{fontWeight:'100', fontSize:'1rem'}}> HTML, CSS, Javascript, React.js, Node.js, GSAP</Typography>    
               </Box>
             </Box>
             <Box sx={{color: 'black', fontWeight: '800', width: '100%', height: '150px', display: 'flex', alignItems: 'center' }}>
@@ -133,8 +133,8 @@ export function SkillPage() {
                 }}
               />
               <Box sx={{ height: '90%', width: '60%', display: 'flex', alignItems: 'center' }}>
-                <Typography variant="span" sx={{ fontWeight: '1000',fontSize:'2rem' }}>Databases: &nbsp; </Typography>
-                <Typography variant="span" sx={{ fontWeight: '100',fontSize:'1.3rem' }}> MongoDB, MySQL</Typography>   
+                <Typography variant="span" sx={{ fontWeight: '1000',fontSize:'1.5rem' }}>Databases: &nbsp; </Typography>
+                <Typography variant="span" sx={{ fontWeight: '100',fontSize:'1rem' }}> MongoDB, MySQL, Firestore</Typography>   
               </Box>
              </Box>
             <Box sx={{ color: 'black', fontWeight: '800', width: '100%', height: '150px', display: 'flex', alignItems: 'center' }}>
@@ -147,15 +147,15 @@ export function SkillPage() {
                 }}
               />
               <Box sx={{ height: '90%', width: '80%', display: 'flex', alignItems: 'center' }}>
-                <Typography variant="span" sx={{ fontWeight: '1000',fontSize:'2rem' }}>Frameworks </Typography>
-                <Typography variant="span" sx={{ fontWeight: '100',fontSize:'1.3rem' }}>: Express.js, Material-UI, Bootstrap</Typography>              </Box>
+                <Typography variant="span" sx={{ fontWeight: '1000',fontSize:'1.5rem' }}>Frameworks </Typography>
+                <Typography variant="span" sx={{ fontWeight: '100',fontSize:'1rem' }}>: Express.js, Material-UI, Bootstrap</Typography>              </Box>
             </Box>
           </Box>
           <Box sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-around', width: '100%', height: '100%' }}>
             <Box sx={{color: 'black', fontWeight: '800', width: '100%', height: '150px',justifyContent:'flex-end', display: 'flex', alignItems: 'center' }}>
               <Box sx={{ height: '90%', width: '80%', display: 'flex', alignItems: 'center', justifyContent:'flex-end' }}>
-                <Typography variant="span" sx={{ fontWeight: '1000',fontSize:'2rem' }}>Programming : &nbsp; </Typography>
-                <Typography variant="span" sx={{ fontWeight: '100',fontSize:'1.3rem' }}>Core Java, JavaScript</Typography>      
+                <Typography variant="span" sx={{ fontWeight: '1000',fontSize:'1.5rem' }}>Programming : &nbsp; </Typography>
+                <Typography variant="span" sx={{ fontWeight: '100',fontSize:'1rem' }}>Core Java, JavaScript</Typography>      
               </Box>
               <Divider
                 sx={{
@@ -168,8 +168,8 @@ export function SkillPage() {
             </Box>
             <Box sx={{ color: 'black', fontWeight: '800', width: '100%', height: '150px', display: 'flex', alignItems: 'center',justifyContent:'flex-end' }}>
               <Box sx={{ height: '90%', width: '70%', display: 'flex', alignItems: 'center',justifyContent:'flex-end' }}>
-                <Typography variant="span" sx={{ fontWeight: '1000',fontSize:'2rem' }}> Tools: &nbsp; </Typography>
-                <Typography variant="span" sx={{ fontWeight: '100',fontSize:'1.3rem' }}>VS Code, Git, GitHub Codespaces</Typography>       
+                <Typography variant="span" sx={{ fontWeight: '1000',fontSize:'1.5rem' }}> Tools: &nbsp; </Typography>
+                <Typography variant="span" sx={{ fontWeight: '100',fontSize:'1rem' }}>VS Code, Git, GitHub Codespaces</Typography>       
               </Box>
               <Divider
                 sx={{
@@ -182,8 +182,8 @@ export function SkillPage() {
             </Box>
             <Box sx={{ color: 'black', fontWeight: '800', width: '100%', height: '150px', display: 'flex', alignItems: 'center', justifyContent:'flex-end' }}>
               <Box sx={{ height: '90%', width: '80%', display: 'flex', alignItems: 'center', justifyContent:'flex-end' }}>
-                <Typography variant="span" sx={{ fontWeight: '1000',fontSize:'2rem' }}>Additional : &nbsp; </Typography>
-                <Typography variant="span" sx={{ fontWeight: '100',fontSize:'1.3rem' }}>DSA, SQL, DBMS, OOPS</Typography>  
+                <Typography variant="span" sx={{ fontWeight: '1000',fontSize:'1.5rem' }}>Additional : &nbsp; </Typography>
+                <Typography variant="span" sx={{ fontWeight: '100',fontSize:'1rem' }}>DSA, SQL, DBMS, OOPS</Typography>  
               </Box>
               <Divider
                 sx={{

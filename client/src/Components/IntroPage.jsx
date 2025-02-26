@@ -37,46 +37,65 @@ export const IntroPage = ({ cursorRef }) => {
         height: "100vh",
         display: "flex", // Use flexbox to align items side-by-side
         position: "relative",
+        backgroundColor:'#020202'
       }}
     >
+      {/* Left Container */}
       <Box
-        id="leftContainer"
-        sx={{ width: '55vw', height: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', gap: '10px' }}
+        ref={introText}
+        sx={{
+          width: { xs: "100%", md: "57%" }, // Reserve 40% for text on medium or larger screens
+          height: "114vh",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          alignContent: "center",
+          zIndex: '2',
+          paddingLeft: '20px',
+        }}
       >
-         <Box id="imgContainer" sx={{margin:'1px 40px', width:'150px', height:'150px', borderRadius:'50%' , backgroundColor:"#ffb109da",border:'1px solid blue'}}>
-            <img src="https://res.cloudinary.com/anayak/image/upload/v1740570990/j0mf0olns73jnjxxhdjj.png" alt="profilePic"style={{width:'150px', height:'150px', borderRadius:'50%'}}  />
-         </Box>
         <Box
-          id="introText"
-          sx={{
-            color: "whitesmoke",
-            width: "100%",
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            padding: "10px 40px",
-          }}
+          sx={{ marginBottom: '20px', lineHeight: '1', fontSize: "5.4rem", color: "#d9d7d7", display: "flex", flexDirection: 'column', fontWeight: '100', fontFamily: "'RecklessNeue', sans-serif" }}
         >
-          <h1 style={{ fontFamily:'anzo2',fontSize:'4.1vw', textTransform:'uppercase'}}>
-            I'm <span style={{ fontFamily:'anzo2',fontSize:'4.1vw', textTransform:'uppercase'}}>Full Stack<sup style={{ border:'1px solid blue',borderRadius:'10px', padding:'1px 8px', fontFamily:'anzo1', fontSize:'25px', color:'purple'}}>MERN</sup></span>
-          </h1>
-           <h1 style={{lineHeight:'3.5vw', fontFamily:'anzo3',fontSize:'5vw',fontWeight:'1000', textTransform:'uppercase'}}>
-              Developer !
-          </h1>
-          <Typography sx={{marginTop:'15px', lineHeight: "1.3", color: "whitesmoke" }}>
-            I create responsive, dynamic, and engaging websites that bring ideas to life. From crafting seamless user
-            experiences to building scalable backend systems, I focus on delivering high-quality digital solutions.
-          </Typography>
-          <Typography variant="h6" sx={{ maxWidth: "800px", lineHeight: "1.6", color: "#ccc", mt: 2 }}>
-            Let's build something amazing together.
-          </Typography>
+          <span className='landingText'> Hey there!👋 </span>
+          <span className='landingText'>I'm Aryan, a</span>
+          <span className='landingText'>passionate Full-Stack </span>
+          <span className='landingText'>Web Developer</span>
         </Box>
-
-        <Box id="profileIcons" sx={{ width: '45%', padding: '1px 20px', display: 'flex', justifyContent: 'space-evenly' }}>
-          <a href="https://www.linkedin.com/in/aryan-nayak-558188335/" target='_blank'>in</a>
-          <a href="https://github.com/Aryan9131" target='_blank'>gt</a>
-          <a href="https://www.naukri.com/code360/profile/d8faa988-d0d5-4d1c-a2a7-20f1385db692" target='_blank'>cn</a>
-          <a href="#page6"><SendIcon sx={{width:'12px', marginRight:'2px'}} /> Contact</a>
+        <Typography variant='p' sx={{ lineHeight: '1.2', fontSize: '1.5rem', fontWeight: '300', color: '#d6d6d6', fontFamily: "'RecklessNeue', sans-serif" }} >
+          I specialize in crafting responsive, dynamic,
+          and animated websites that bring ideas to life.
+          Whether it's building seamless user experiences or robust backend solutions,
+          I’m all about delivering impactful digital creations.
+          <br />
+          Welcome to my world—let’s create something amazing together!
+        </Typography>
+        <Box sx={{width:'80%', display: "flex", alignItems: 'center',justifyContent:'space-between', position: 'absolute', bottom: '8%' }}>
+          <Box sx={{ display: "flex", alignItems: 'center'}}>
+            <Box sx={{ fontWeight: 'bold', fontSize: '20px', color: 'purple', backgroundColor: 'yellow', width: '30px', height: '40px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+              <span>gt</span>
+            </Box>
+            <Box sx={{ fontWeight: 'bold', fontSize: '20px', color: 'yellow', backgroundColor: 'orange', width: '30px', height: '40px', margin: '0px 20px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+              <span>in</span>
+            </Box>
+            <Box sx={{ fontWeight: 'bold', fontSize: '20px', color: 'orange', backgroundColor: 'purple', width: '30px', height: '40px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+              <span>cn</span>
+            </Box>
+          </Box>
+          <Box
+           onMouseEnter={handleMouseEnter}
+           onMouseLeave={handleMouseLeave}
+          sx={{
+                    border:'1px solid purple', padding:'10px 20px', borderRadius:'5px',
+                    transition:'all .3s ease-in-out',
+                    color:'white',
+                    '&:hover':{
+                        backgroundColor:'purple',
+                        cursor:'pointer'
+                    }    
+                  }}>
+             <span>Download</span>
+          </Box>
         </Box>
       </Box>
       <Box
